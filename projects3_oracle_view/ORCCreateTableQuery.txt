@@ -1,0 +1,8 @@
+CREATE TABLE MI181_PGROSALES.client (
+	id int NOT NULL,
+	client_fname  varchar2(50) NOT NULL,
+	client_lname  varchar2(50) NOT NULL,
+	client_address  varchar2(50)NOT NULL,
+	client_number int NULL,
+	CONSTRAINT client_pkey PRIMARY KEY (id)
+);
